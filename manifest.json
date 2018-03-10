@@ -15,5 +15,10 @@
   "options_ui": {
     "page": "options.html",
     "browser_style": true
+  },
+  "applications": {
+    "gecko": {
+      "strict_min_version": "52.0"
+    }
   }
 }
