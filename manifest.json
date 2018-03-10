@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "amazon-simple-url",
+  "version": "0.1.0",
+
+  "description": "amazon url modifier to simple url in your browser",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.amazon.co.jp/*"],
+      "js": ["amazon-simple-url.js"]
+    }
+  ],
+  "permissions": ["storage"],
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  }
+}
