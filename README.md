@@ -1,6 +1,6 @@
 # amazon-simple-url
 
-the add-one to modify URL when you access to any product page in amazon.co.jp.
+The add-one to modify URL when you access to any product page in Amazon.
 
 
 ## Example
