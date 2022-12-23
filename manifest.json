@@ -7,7 +7,25 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.amazon.co.jp/*"],
+        "matches": [
+            "*://*.amazon.com.br/*",
+            "*://*.amazon.ca/*",
+            "*://*.amazon.com.mx/*",
+            "*://*.amazon.com/*",
+            "*://*.amazon.cn/*",
+            "*://*.amazon.in/*",
+            "*://*.amazon.co.jp/*",
+            "*://*.amazon.sg/*",
+            "*://*.amazon.com.tr/*",
+            "*://*.amazon.ae/*",
+            "*://*.amazon.fr/*",
+            "*://*.amazon.de/*",
+            "*://*.amazon.it/*",
+            "*://*.amazon.nl/*",
+            "*://*.amazon.es/*",
+            "*://*.amazon.uk/*",
+            "*://*.amazon.au/*"
+        ],
       "js": ["amazon-simple-url.js"]
     }
   ],
