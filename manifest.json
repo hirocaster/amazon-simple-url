@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "amazon-simple-url",
-  "version": "0.1.0",
+  "version": "0.2.0",
 
   "description": "Amazon url modifier to simple url in your browser",
 
