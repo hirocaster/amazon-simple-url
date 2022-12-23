@@ -3,7 +3,7 @@
   "name": "amazon-simple-url",
   "version": "0.1.0",
 
-  "description": "amazon url modifier to simple url in your browser",
+  "description": "Amazon url modifier to simple url in your browser",
 
   "content_scripts": [
     {
